@@ -1,0 +1,61 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.21005.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PharmacySolution.Core", "App\PharmacySolution.Core\PharmacySolution.Core.csproj", "{65A26E7E-4A15-415E-9D5B-7AF8102443E1}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PharmacySolution.Contracts", "App\PharmacySolution.Contracts\PharmacySolution.Contracts.csproj", "{322F1DF1-52A6-47BD-B138-70468EDAFE4B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PharmacySolution.BusinessLogic", "App\PharmacySolution.BusinessLogic\PharmacySolution.BusinessLogic.csproj", "{EE7EF623-D52E-431F-87BB-F2729BFEE72B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PharmacySolution.Data", "App\PharmacySolution.Data\PharmacySolution.Data.csproj", "{F399FC5B-B590-49F6-8D8C-21C5F3A96170}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PharmacySolution.IOC", "App\PharmacySolution.IOC\PharmacySolution.IOC.csproj", "{AD5A3692-C11C-42C7-8D79-A766E991961B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConsoleApp", "App\ConsoleApp\ConsoleApp.csproj", "{5BD423D5-CBEF-4B52-83B9-4760B39395FB}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UnitTestProject", "App\UnitTestProject\UnitTestProject.csproj", "{669C3FF3-F3A3-46F0-9FA3-B63B00FFBBAA}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{65A26E7E-4A15-415E-9D5B-7AF8102443E1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{65A26E7E-4A15-415E-9D5B-7AF8102443E1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{65A26E7E-4A15-415E-9D5B-7AF8102443E1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{65A26E7E-4A15-415E-9D5B-7AF8102443E1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{322F1DF1-52A6-47BD-B138-70468EDAFE4B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{322F1DF1-52A6-47BD-B138-70468EDAFE4B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{322F1DF1-52A6-47BD-B138-70468EDAFE4B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{322F1DF1-52A6-47BD-B138-70468EDAFE4B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EE7EF623-D52E-431F-87BB-F2729BFEE72B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EE7EF623-D52E-431F-87BB-F2729BFEE72B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EE7EF623-D52E-431F-87BB-F2729BFEE72B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EE7EF623-D52E-431F-87BB-F2729BFEE72B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F399FC5B-B590-49F6-8D8C-21C5F3A96170}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F399FC5B-B590-49F6-8D8C-21C5F3A96170}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F399FC5B-B590-49F6-8D8C-21C5F3A96170}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F399FC5B-B590-49F6-8D8C-21C5F3A96170}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AD5A3692-C11C-42C7-8D79-A766E991961B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AD5A3692-C11C-42C7-8D79-A766E991961B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AD5A3692-C11C-42C7-8D79-A766E991961B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AD5A3692-C11C-42C7-8D79-A766E991961B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5BD423D5-CBEF-4B52-83B9-4760B39395FB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5BD423D5-CBEF-4B52-83B9-4760B39395FB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5BD423D5-CBEF-4B52-83B9-4760B39395FB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5BD423D5-CBEF-4B52-83B9-4760B39395FB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{669C3FF3-F3A3-46F0-9FA3-B63B00FFBBAA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{669C3FF3-F3A3-46F0-9FA3-B63B00FFBBAA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{669C3FF3-F3A3-46F0-9FA3-B63B00FFBBAA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{669C3FF3-F3A3-46F0-9FA3-B63B00FFBBAA}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		EnterpriseLibraryConfigurationToolBinariesPath = packages\Unity.2.1.505.2\lib\NET35;packages\Unity.Interception.2.1.505.2\lib\NET35
+	EndGlobalSection
+EndGlobal
